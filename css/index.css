@@ -51,7 +51,7 @@ table {
 /* begin style? */
 * {
     box-sizing: border-box;
-}
+/* }
 
 html, body {
     max-height: 100%;
@@ -59,7 +59,6 @@ html, body {
 }
 header{
  max-width: 800px;
- max-height: 40px;
  margin:20px 525px 20px 525px;
  display: flex;
  justify-content: flex-start;
@@ -172,14 +171,13 @@ footer nav a {
     text-decoration: none;
 }
 .about-container{
-    max-width: 800px;
-    max-height: 40px;
-    margin:20px 525px 20px 525px;
+    width: 80%;
     display: flex;
     justify-content: flex-start;
-    align-content: center;
-}  
-.about-text{
+    align-content: center; 
+    flex-direction:column;
+}    */
+/* .about-text{
     max-width: 800px;
     max-height: 40px;
     margin:20px 525px 20px 525px;
@@ -191,11 +189,11 @@ footer nav a {
     margin:0 525px 0 525px;
     max-width:auto;
     max-height:auto;
-    display: flex;
+    display: flex; */
 
      /* justify-content: flex-start;
     align-content: flex-start; */
-    border: black 3px solid;
+    /* border: black 3px solid;
    
     }
     .bottomabout div {
@@ -205,4 +203,5 @@ footer nav a {
         display: flex;
         justify-content: flex-start;
         flex-wrap: wrap;
-    }
+    } */
+   /* WE ARE STARTING STYLE FROM SCRATCH! FOCUSING ON % RATHER THAN PX! */
