@@ -188,10 +188,21 @@ footer nav a {
     align-content: center;
 }
 .bottomabout{
-    max-width: 800px;
+    margin:0 525px 0 525px;
+    max-width:auto;
+    max-height:auto;
     display: flex;
-    justify-content: center;
-    align-content: center;
-    background-color: brown;
-    
-}
+
+     /* justify-content: flex-start;
+    align-content: flex-start; */
+    border: black 3px solid;
+   
+    }
+    .bottomabout div {
+        max-width: auto;
+        margin:20px;
+        border: blue 3px solid;
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+    }
