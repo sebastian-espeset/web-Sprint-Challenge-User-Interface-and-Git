@@ -29,8 +29,6 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 
-/* begin style? */
-
 
 body {
 	line-height: 1;
@@ -50,7 +48,7 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
+/* begin style? */
 * {
     box-sizing: border-box;
 }
@@ -59,7 +57,31 @@ html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
 }
+header{
+ max-width: 800px;
+ max-height: 40px;
+ margin:20px 525px 20px 525px;
+ display: flex;
+ justify-content: flex-start;
+ align-content: center;
+}
+.navigation{
+    font-size: 18px;
+    margin: 20px;
+    width:800px;
+    display:flex;
+    justify-content: space-evenly;
+    align-content: flex-start;
+}
+a{
+    text-decoration: none;
+}
+.streetimg{
+  width:100%;
+  margin:525px 525px 525px 525px;
+  display: inline;
 
+}
 h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
@@ -108,13 +130,14 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    background:black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
 
 .bottom-content {
     display: flex;
