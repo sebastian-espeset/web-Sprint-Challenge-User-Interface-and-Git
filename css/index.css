@@ -76,7 +76,7 @@ header{
 a{
     text-decoration: none;
 }
-.streetimg{
+.topimg{
   width:100%;
   margin:525px 525px 525px 525px;
   display: inline;
@@ -170,4 +170,13 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+.about-text{
+    font-size: 18px;
+}
+.bottomabout{
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
 }
