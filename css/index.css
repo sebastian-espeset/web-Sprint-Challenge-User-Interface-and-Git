@@ -172,38 +172,26 @@ footer nav a {
     text-decoration: none;
 }
 .about-container{
-    
-    width: 800px;
-    margin: 0 auto;
-}  
-.about-text h2{
-    
     max-width: 800px;
     max-height: 40px;
     margin:20px 525px 20px 525px;
     display: flex;
     justify-content: flex-start;
     align-content: center;
-    
-.about-text {
-    
-        max-width: 800px;
-        max-height: 40px;
-        margin:20px 525px 20px 525px;
-        display: flex;
-        justify-content: center;
-        align-content: center;
-}
-p.about-text{
+}  
+.about-text{
+    max-width: 800px;
+    max-height: 40px;
+    margin:20px 525px 20px 525px;
     display: flex;
     justify-content: center;
     align-content: center;
-} 
-
 }
 .bottomabout{
-    display:flex;
+    max-width: 800px;
+    display: flex;
     justify-content: center;
     align-content: center;
-    flex-wrap: wrap;
+    background-color: brown;
+    
 }
