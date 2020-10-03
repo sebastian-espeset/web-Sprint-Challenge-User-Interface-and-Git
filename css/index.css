@@ -334,3 +334,43 @@ footer nav a {
 
 
 }
+.about-text{
+    margin-left:23%;
+    width:45%;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.photo{
+    margin-right:5%;
+    border-bottom: dashed 2px;
+}
+.gallery1{
+    padding:3px;
+    width:45%;
+    margin-left:23%;
+
+    display: flex;
+
+    
+}
+.gallery2{
+    padding:3px;
+    margin-left:23%;
+    width:45%;
+    display:flex;
+    
+}
+.endnote{
+    width:45%;
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+    margin-left:23%;
+}
+footer{
+    display:flex;
+    justify-content: space-evenly;
+    width:55%;
+    margin-left: 23%;
+}
